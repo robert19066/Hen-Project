@@ -1,0 +1,5 @@
+# --SPECIAL GITIGNORE TEMPLATE FOR HEN, DO NOT MODIFY--
+
+#ignore environment files
+hen_env/
+hen_outputs/
