@@ -1,10 +1,10 @@
 # Hen AI
 
-Hen is a fine-tunable, Qwen-powered language model designed for interactive chat and text generation. Hen comes in multiple variants including Hen-2B, Hen-o1, and Hen-o2, with Hen-o2 featuring advanced reasoning, Romanian language support, and anti-overfitting mechanisms.
+Hen is a fine-tunable language model designed for interactive chat and text generation. Hen comes in multiple variants including Hen-o2 Mini, Hen-o2 MAX and hen-o2 ULTRA with Hen-o2 featuring advanced reasoning, Romanian language support, and anti-overfitting mechanisms.
 
 # Features
 
-- tilingual chat support (English & Romanian)
+- Bilingual chat support (English & Romanian)
 
 - Fast training and fine-tuning with LoRA
 
