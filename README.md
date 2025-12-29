@@ -17,9 +17,9 @@ Hen is a fine-tunable language model designed for interactive chat and text gene
 - Supports both single-line and multi-line chat modes
 
 # Model Variants
-Hen-o1 (Hen-4B)	Full 4-billion parameter model; trained on Alpaca, OpenAssistant, and Dolly
-Hen-o2 (Hen-4B)	Advanced 4-billion parameter model; anti-overfitting, reasoning improvements, and Romanian support
-Hen-o2 MAX	Model variant with memory and optimized performance
+Hen-o2 (Hen-4B) ->	Advanced 4-billion parameter model; anti-overfitting, reasoning improvements, and Romanian support
+Hen-o2 MAX -> Model variant with memory and optimized performance
+Hen-o2 ULTRA -> Even better iteration of Hen-o2, with ~5B params
 # Scripts
 ## `hen_trainer.py`
 
