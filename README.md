@@ -1,3 +1,6 @@
+
+![Hen AI logo](https://i.postimg.cc/nrCSGhCc/Gemini_Generated_Image_47mclw47mclw47mc.png)
+
 # Hen AI
 
 Hen is a fine-tunable language model designed for interactive chat and text generation. Hen comes in multiple variants including Hen-o2 Mini, Hen-o2 MAX and hen-o2 ULTRA with Hen-o2 featuring advanced reasoning, Romanian language support, and anti-overfitting mechanisms.
@@ -33,7 +36,7 @@ Use this script to train or fine-tune Hen on custom datasets. Features include:
 
 - Real-time training loss monitoring
 
-`python hen_trainer.py --dataset path/to/your/dataset`
+`python hen_trainer.py`
 
 ## `hen_chat.py`
 
