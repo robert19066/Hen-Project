@@ -3,4 +3,4 @@
 #ignore environment files
 hen_env/
 hen_outputs/
-hen_web.py
+web/

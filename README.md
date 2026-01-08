@@ -61,23 +61,9 @@ Use this script for interactive chatting with Hen. Features include:
 
 - Ctrl+C — Exit or open menu
 
-# Requirements
-
-- Python 3.10+
-
-- PyTorch
-
-- Transformers
-
-- Datasets
-
-- PEFT (Parameter-Efficient Fine-Tuning)
-
-- googletrans library for Romanian translation
-
 # Install dependencies:
 
-`pip install torch transformers peft googletrans==4.0.0rc1`
+`pip install requirements.txt`
 
 # Notes
 
