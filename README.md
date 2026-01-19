@@ -61,9 +61,24 @@ Use this script for interactive chatting with Hen. Features include:
 
 - Ctrl+C — Exit or open menu
 
-# Install dependencies:
+# Models:
 
-`pip install requirements.txt`
+### Lite Models(can run even on cpu):
+- Hen Lite
+- Hen Lite Code
+### Standard Models:
+- Hen Mini
+- Hen Max
+- Hen Ultra
+- Hen Pro
+### Code Models:
+- Hen Code
+- Hen Code Max
+- Hen Code Expert
+### Reasoning Models:
+- Hen R1 Mini
+- Hen R1 Max
+- Hen R2 DEEP
 
 # Notes
 
