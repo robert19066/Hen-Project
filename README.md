@@ -1,5 +1,5 @@
 
-![Hen AI logo](https://i.postimg.cc/nrCSGhCc/Gemini_Generated_Image_47mclw47mclw47mc.png)
+![if you see this this means you have no wifi and you can see the gorgeous logo poor you](https://i.postimg.cc/28XgstvF/Gemini-Generated-Image-fenw7rfenw7rfenw.png)
 
 # Hen AI[Documentation updated to V3]
 Hen is a fine-tunable LLM designed for interactive chat and text generation. Supports images and any file type you can think of!
