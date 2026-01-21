@@ -14,7 +14,11 @@ from transformers import (
 
 )
 
-
+##########################################################################################################################
+# HEN WEBUI Backend V1                                                                                                   #
+# Major Updates:                                                                                                         #
+# none, its the first version lmao                                                                                       #
+##########################################################################################################################
 
 
 
@@ -25,9 +29,7 @@ app = Flask(__name__)
 # --- CONFIGURATION ---
 
 MODEL_ID = "Qwen/Qwen2.5-3B-Instruct"
-
 BASE_MODEL_DIR = "./HenModels"
-
 IMAGE_CAPTION_MODEL = "Salesforce/blip-image-captioning-base"
 
 
@@ -35,21 +37,14 @@ IMAGE_CAPTION_MODEL = "Salesforce/blip-image-captioning-base"
 # --- GLOBAL STATE ---
 
 model = None
-
 tokenizer = None
-
 caption_model = None
-
 caption_processor = None
-
 current_model_name = "None"
 
 
 
 # --- HELPER FUNCTIONS ---
-
-
-
 def load_image_model():
 
     """Loads the image describer (BLIP) only once."""

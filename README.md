@@ -33,3 +33,7 @@ The project is licensed under the *Apache Licence 2.0*.
 
 Please give credit, taking an other person's work and not giving them credit is **STEALING!** Stealing is bad, so give credit. 
 It doesn't hurt!
+
+# Awarded contribuitors 🌟
+
+none....YET! Shall you be the first one?(yes the fist ever contribuitor is awarded)
