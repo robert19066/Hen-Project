@@ -1,11 +1,11 @@
 
 ![Hen AI logo](https://i.postimg.cc/nrCSGhCc/Gemini_Generated_Image_47mclw47mclw47mc.png)
 
-# Hen AI
+# Hen AI[Documentation updated to V3]
 Hen is a fine-tunable LLM designed for interactive chat and text generation. Supports images and any file type you can think of!
 # Features
-*(note the features tab only updates since a new feature is added)*
-*Updated since version: V3*
+##### *(note the features tab only updates when a new feature is added)*
+**Updated since version: V3**
 - A web UI for chats with model selection.
 - Added training script and a variety of models to choose.
 - GPU compatability tester.
@@ -29,8 +29,10 @@ List of scripts and what they do(all are in the folder Scripts):
 # LICENCE
 The project is licensed under the *Apache Licence 2.0*.
 
-## Message for who wants to use Hen in their projects
+# To note:
+The documentation can sometimes be older than the version,thats why you can see from what version it was updated(to avoid confusion)
 
+## Message for who wants to use Hen in their projects
 Please give credit, taking an other person's work and not giving them credit is **STEALING!** Stealing is bad, so give credit. 
 It doesn't hurt!
 
