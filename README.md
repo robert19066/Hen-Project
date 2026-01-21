@@ -2,15 +2,15 @@
 ![Hen AI logo](https://i.postimg.cc/nrCSGhCc/Gemini_Generated_Image_47mclw47mclw47mc.png)
 
 # Hen AI
-#### The documentation has been REMADE! The old documentation was since the first version,and it SUCKED!
-Hen is a fine-tunable language model designed for interactive chat and text generation. Hen comes in multiple variants including Hen-o2 Mini, Hen-o2 MAX and hen-o2 ULTRA with Hen-o2 featuring advanced reasoning, Romanian language support, and anti-overfitting mechanisms.
-
+Hen is a fine-tunable LLM designed for interactive chat and text generation. Supports images and any file type you can think of!
 # Features
-*Updates since version: V2.5*
+*(note the features tab only updates since a new feature is added)*
+*Updated since version: V3*
 - A web UI for chats with model selection.
 - Added training script and a variety of models to choose.
 - GPU compatability tester.
 - CLI Trainer and Chat.
+- Comand-line trainer for in-app use(like in other apps)
 
 # Instalation:
 Firstly make an python virtual env(conda has not been tested, venv is recomanded) and run:
