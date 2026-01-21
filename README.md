@@ -29,7 +29,7 @@ List of scripts and what they do(all are in the folder Scripts):
 # LICENCE
 The project is licensed under the *Apache Licence 2.0*.
 
-# To note:
+### To note:
 The documentation can sometimes be older than the version,thats why you can see from what version it was updated(to avoid confusion)
 
 ## Message for who wants to use Hen in their projects
