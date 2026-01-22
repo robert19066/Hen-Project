@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hen Chat WebUI V2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="glow-orb orb-1"></div>
+<div class="glow-orb orb-2"></div>
+
+<!--
+##########################################################################################################################
+# HEN WEBUI Html V2 and Css V2                                                                                           #
+# Major Updates:                                                                                                         #
+# COMPLEATLY changed the damn UI. it looks verry nice now. enjoy                                                         #
+##########################################################################################################################
+-->
+
+<div class="app-container">
+    <aside class="sidebar glass">
+        <div class="logo">
+            <h1 class="text-gradient">HenAI Chat</h1>
+            <span class="version-tag">V2</span>
+        </div>
+
+        <div class="sidebar-content">
+            <div class="control-group glass-card">
+                <label><i class="fas fa-microchip"></i> Model management</label>
+                <div class="select-wrapper">
+                    <select id="model-select">
+                        <option value="" disabled selected>Initialising model...</option>
+                    </select>
+                </div>
+                <button id="load-btn" onclick="loadSelectedModel()">
+                    <span>Initialize Model</span>
+                    <i class="fas fa-bolt"></i>
+                </button>
+                <div id="model-status" class="status-indicator">Model found. Ready to chat.</div>
+            </div>
+
+            <div class="control-group glass-card">
+                <label><i class="fas fa-sliders"></i> Language Config</label>
+                <div class="toggle-container">
+                    <div class="toggle-info">
+                        <span class="main-label">Romanian Mode</span>
+                        <span class="sub-label">Translation in romanian</span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="ro-mode">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="credits">
+            <p>Made by <span class="author">Brickboss(robert19066)</span></p>
+        </div>
+    </aside>
+
+    <main class="chat-area">
+        <div id="chat-history" class="chat-history">
+            <div class="message system">
+                <div class="bubble">
+                    <strong>Hello!</strong> Welcome to the Hen Chat WebUI. Start by selecting a model. You can upload images to provide context for your conversations. Enjoy chatting!
+                </div>
+            </div>
+        </div>
+
+        <div class="input-wrapper-container">
+            <div class="image-preview glass" id="image-preview" style="display:none;">
+                <img id="preview-img" src="" alt="preview">
+                <button class="close-preview" onclick="clearImage()"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="input-bar glass">
+                <label for="image-upload" class="icon-btn upload-trigger">
+                    <i class="fas fa-plus"></i>
+                </label>
+                <input type="file" id="image-upload" accept="image/*" hidden onchange="handleImageUpload(this)">
+                
+                <textarea id="user-input" placeholder="Message Hen..." rows="1"></textarea>
+                
+                <button id="send-btn" class="icon-btn send-trigger" onclick="sendMessage()">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

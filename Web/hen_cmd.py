@@ -19,11 +19,11 @@ from pathlib import Path
 ##########################################################################################################################
 
 
-# ==================== CONFIGURATION ====================
-BASE_MODEL_ID = "Qwen/Qwen2.5-3B-Instruct"
-MODELS_DIR = "HenModels"
 
-# Complete tier definitions with all metadata
+BASE_MODEL_ID = "Qwen/Qwen2.5-3B-Instruct"
+MODELS_DIR = "/HenModels"
+
+
 ARCHETYPES = {
 
     "LITE": {
@@ -179,7 +179,7 @@ ARCHETYPES = {
     }
 }
 
-# ==================== UTILITY FUNCTIONS ====================
+
 def print_header():
     """Print a nice header"""
     print("\n" + "=" * 70)
@@ -194,7 +194,7 @@ def ensure_models_dir():
     """Ensure the models directory exists"""
     os.makedirs(MODELS_DIR, exist_ok=True)
 
-# ==================== MODEL MANAGEMENT ====================
+
 def list_models():
     """List all models in the directory"""
     print_header()
@@ -388,7 +388,7 @@ def model_info(name):
     print_header()
     print(f"📋 MODEL INFORMATION: {name}\n")
     
-    # Check for metadata
+
     meta_path = os.path.join(path, "hen_metadata.json")
     if os.path.exists(meta_path):
         with open(meta_path, 'r') as f:
@@ -417,7 +417,7 @@ def model_info(name):
     else:
         print_colored("⚠️  No metadata found for this model.", "93")
     
-    # Check file size
+
     try:
         size = sum(f.stat().st_size for f in Path(path).rglob('*') if f.is_file())
         size_mb = size / (1024 * 1024)
@@ -427,7 +427,7 @@ def model_info(name):
     
     print("\n")
 
-# ==================== MAIN CLI ====================
+
 def main():
     parser = argparse.ArgumentParser(
         description="🐔 Hen-2B Model Management CLI",
@@ -444,30 +444,30 @@ Examples:
     
     subparsers = parser.add_subparsers(dest="command", required=True)
     
-    # list: Show all models
+
     subparsers.add_parser("list", help="List all models")
     
-    # gen: Create a new model slot
+
     gen_parser = subparsers.add_parser("gen", help="Create a new model slot")
     gen_parser.add_argument("name", help="Name of the model (e.g., my_first_hen)")
     gen_parser.add_argument("tier", 
                           choices=list(ARCHETYPES.keys()),
                           help="Model tier/archetype")
     
-    # del: Delete a model
+
     del_parser = subparsers.add_parser("del", help="Delete a model")
     del_parser.add_argument("name", help="Name of the model to delete")
     
-    # info: Show model details
+
     info_parser = subparsers.add_parser("info", help="Show model information")
     info_parser.add_argument("name", help="Name of the model")
     
-    # tiers: Show tier information
+
     subparsers.add_parser("tiers", help="Show all available tiers")
     
     args = parser.parse_args()
     
-    # Execute commands
+
     if args.command == "list":
         print("HenCMD Comand Line Interface V2.0")
         list_models()

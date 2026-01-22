@@ -33,7 +33,7 @@ MODEL_CONFIGS = {
     "lite": "Qwen/Qwen2.5-1.5B-Instruct",        # For low VRAM
 }
 
-BASE_OUTPUT_DIR = "./HenModels"
+BASE_OUTPUT_DIR = "/HenModels"
 
 class HenProgressBar(TrainerCallback):
     def __init__(self):
