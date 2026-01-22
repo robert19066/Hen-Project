@@ -6,10 +6,9 @@ flask
 flask-cors
 transformers
 perf
-googletrans==3.1.0a0
 pillow
 bitsandbytes
 accelerate
 datasets
-httpx==0.24.1
+deep-translate
 trl
