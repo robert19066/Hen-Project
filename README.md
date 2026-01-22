@@ -40,6 +40,7 @@ And what they do(all are in the folder Scripts):
 
 ## Endpot(**NEW**):
 ![ENDPOTTT](https://i.postimg.cc/5tQWt66X/Gemini-Generated-Image-7qmact7qmact7qma.png)
+
 I am exited to show you this new feature i worked one, its massive because now i'm focusing on making Hen implementable in actual projects. This is no longer a experiment, but a whole blown product! -  you can turn your **own** pc into a Hen Endpoint! You can set adress, port, max tokens, temperature and even an API KEY!
 The script `hen_endpot.py` handles it all, easely, with a friendly CLI!
 
