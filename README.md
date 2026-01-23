@@ -38,7 +38,7 @@ And what they do(all are in the folder Scripts):
 - `hen_trainer.py` - The CLI trainer
 - `hen_endpot.py` - The Hen ENDPOT server,see lower for details.
 - `hen_cmd.py` - Command-based manager, in case you need to use Hen in other projects!
-- (AT THE ROOT FOLDER, NOT AT SCRIPTS)`app.py` - The backend for the Chat Web UI.
+- (AT THE WEB FOLDER, NOT AT SCRIPTS)`app.py` - The backend for the Chat Web UI.
 
 ## Endpot(**NEW**):
 ![ENDPOTTT](https://i.postimg.cc/5tQWt66X/Gemini-Generated-Image-7qmact7qmact7qma.png)
