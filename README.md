@@ -1,7 +1,7 @@
 
 ![if you see this this means you have no wifi or smth went wrong and you can't see the gorgeous logo poor you](https://i.postimg.cc/28XgstvF/Gemini-Generated-Image-fenw7rfenw7rfenw.png)
 
-# Hen AI[Documentation updated to V4]
+# Hen AI[Documentation updated to V4.5]
 **Warning: This update arrived with breaking changes! Do not keep your old env and redowload the newest version! Folow the steps on the release page to upgrade!**
 
 
@@ -11,7 +11,7 @@ Hen is a fine-tunable LLM designed for interactive chat and text generation. Sup
 
 ##### _(note the features tab only updates when a new feature is added)_
 
-**Updated since version: V4**
+**Updated since version: V4.5**
 
 - A web UI for chats with model selection.
 - Added training script and a variety of models to choose.
@@ -19,6 +19,7 @@ Hen is a fine-tunable LLM designed for interactive chat and text generation. Sup
 - CLI Trainer and Chat.
 - Comand-line trainer for in-app use(like in other apps)
 - Transforming your device into a Hen Endpoint using Hen Endpot
+- Make your own Hen Models using Hen Lab
 
 # Instalation:
 
@@ -116,8 +117,8 @@ curl -X POST http://localhost:5000/api/hen \
   -H "Content-Type: application/json" \
   -d '{"action": "status"}'
 ```
-## HEN Laboratory - Auto-Loading Datasets (V4.5 feature):
-[![Gemini-Generated-Image-eq0ud6eq0ud6eq0u.png](https://i.postimg.cc/JzsRZxpN/Gemini-Generated-Image-eq0ud6eq0ud6eq0u.png)]
+## HEN Lab (V4.5 feature):
+![image not loaded](https://i.postimg.cc/JzsRZxpN/Gemini-Generated-Image-eq0ud6eq0ud6eq0u.png)
 The HEN Lab training interface now allows you to make your own HEN MODELS! YEAH MAKE IT YOUR OWN! Edit datasets, training, name etc! All trought the magic of Auto-loading
 
 ### What Auto-Loading Does
