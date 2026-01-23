@@ -117,6 +117,7 @@ curl -X POST http://localhost:5000/api/hen \
   -d '{"action": "status"}'
 ```
 ## HEN Laboratory - Auto-Loading Datasets (V4.5 feature):
+[![Gemini-Generated-Image-eq0ud6eq0ud6eq0u.png](https://i.postimg.cc/JzsRZxpN/Gemini-Generated-Image-eq0ud6eq0ud6eq0u.png)]
 The HEN Lab training interface now allows you to make your own HEN MODELS! YEAH MAKE IT YOUR OWN! Edit datasets, training, name etc! All trought the magic of Auto-loading
 
 ### What Auto-Loading Does
