@@ -116,6 +116,28 @@ curl -X POST http://localhost:5000/api/hen \
   -H "Content-Type: application/json" \
   -d '{"action": "status"}'
 ```
+## HEN Laboratory - Auto-Loading Datasets (V4.5 feature):
+The HEN Lab training interface now allows you to make your own HEN MODELS! YEAH MAKE IT YOUR OWN! Edit datasets, training, name etc! All trought the magic of Auto-loading
+
+### What Auto-Loading Does
+When you select a model tier in HEN Lab (e.g., `hen_lite`, `hen_code_expert`, `hen_r1_max`), the system automatically loads the datasets for that model. Each tier has been pre-optimized by the HEN team(more like 1-man team lol).
+
+### Customizing Datasets
+After auto-loading, you can easily customize:
+- **Adjust weights** - Change dataset emphasis (0.5x, 1.0x, 2.0x, etc.)
+- **Add datasets** - Include local files or HuggingFace datasets
+- **Remove datasets** - Drop unwanted ones
+- **Change formats** - Switch between chat, code, or reasoning formats
+
+All changes happen in the "Genetic Mixer" menu - the auto-loaded datasets are a starting point, not a restriction!
+
+### Key Benefits
+✅ **No manual setup** - Select model → Datasets ready  
+✅ **Pre-optimized** - Expert-curated datasets per tier  
+✅ **Fully flexible** - Add, remove, or modify any dataset  
+✅ **Real data** - Loads from HuggingFace (not just metadata)  
+✅ **Proper formatting** - Each dataset type gets correct chat/code/reasoning format
+
 
 # LICENCE
 
