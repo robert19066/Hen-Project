@@ -2,7 +2,7 @@
 ![if you see this this means you have no wifi or smth went wrong and you can't see the gorgeous logo poor you](https://i.postimg.cc/28XgstvF/Gemini-Generated-Image-fenw7rfenw7rfenw.png)
 
 # Hen AI[Documentation updated to V4.5]
-**Warning: This update arrived with breaking changes! Do not keep your old env and redowload the newest version! Folow the steps on the release page to upgrade!**
+_(all images are ai generated)_
 
 
 Hen is a fine-tunable LLM designed for interactive chat and text generation. Supports images and any file type you can think of!
